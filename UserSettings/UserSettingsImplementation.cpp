@@ -554,7 +554,7 @@ uint32_t UserSettingsImplementation::GetPreferredClosedCaptionService(string &se
     return status;
 }
 
-uint32_t UserSettingsImplementation::SetPinControl(const bool enabled)
+uint32_t UserSettingsImplementation::SetPinControl(const bool pinControl)
 {
     uint32_t status = Core::ERROR_GENERAL;
 
@@ -563,7 +563,7 @@ uint32_t UserSettingsImplementation::SetPinControl(const bool enabled)
     return status;
 }
 
-uint32_t UserSettingsImplementation::GetPinControl(bool &enabled) const
+uint32_t UserSettingsImplementation::GetPinControl(bool &pinControl) const
 {
     uint32_t status = Core::ERROR_GENERAL;
     std::string value = "";
@@ -622,7 +622,7 @@ uint32_t UserSettingsImplementation::GetViewingRestrictionsWindow(string &viewin
     return status;
 }
 
-uint32_t UserSettingsImplementation::SetLiveWatershed(const bool enabled)
+uint32_t UserSettingsImplementation::SetLiveWatershed(const bool liveWatershed)
 {
     uint32_t status = Core::ERROR_GENERAL;
 
@@ -632,7 +632,7 @@ uint32_t UserSettingsImplementation::SetLiveWatershed(const bool enabled)
 
 }
 
-uint32_t UserSettingsImplementation::GetLiveWatershed(bool &enabled) const
+uint32_t UserSettingsImplementation::GetLiveWatershed(bool &liveWatershed) const
 {
     uint32_t status = Core::ERROR_GENERAL;
     std::string value = "";
@@ -653,7 +653,7 @@ uint32_t UserSettingsImplementation::GetLiveWatershed(bool &enabled) const
     return status;
 }
 
-uint32_t UserSettingsImplementation::SetPlaybackWatershed(const bool enabled)
+uint32_t UserSettingsImplementation::SetPlaybackWatershed(const bool playbackWatershed)
 {
     uint32_t status = Core::ERROR_GENERAL;
 
@@ -662,7 +662,7 @@ uint32_t UserSettingsImplementation::SetPlaybackWatershed(const bool enabled)
     return status;
 }
 
-uint32_t UserSettingsImplementation::GetPlaybackWatershed(bool &enabled) const
+uint32_t UserSettingsImplementation::GetPlaybackWatershed(bool &playbackWatershed) const
 {
     uint32_t status = Core::ERROR_GENERAL;
     std::string value = "";
@@ -683,7 +683,7 @@ uint32_t UserSettingsImplementation::GetPlaybackWatershed(bool &enabled) const
     return status;
 }
 
-uint32_t UserSettingsImplementation::SetBlockNotRatedContent(const bool enabled)
+uint32_t UserSettingsImplementation::SetBlockNotRatedContent(const bool blockNotRatedContent)
 {
     uint32_t status = Core::ERROR_GENERAL;
 
@@ -692,7 +692,7 @@ uint32_t UserSettingsImplementation::SetBlockNotRatedContent(const bool enabled)
     return status;
 }
 
-uint32_t UserSettingsImplementation::GetBlockNotRatedContent(bool &enabled) const
+uint32_t UserSettingsImplementation::GetBlockNotRatedContent(bool &blockNotRatedContent) const
 {
     uint32_t status = Core::ERROR_GENERAL;
     std::string value = "";
@@ -713,7 +713,7 @@ uint32_t UserSettingsImplementation::GetBlockNotRatedContent(bool &enabled) cons
     return status;
 }
 
-uint32_t UserSettingsImplementation::SetPinOnPurchase(const bool enabled)
+uint32_t UserSettingsImplementation::SetPinOnPurchase(const bool pinOnPurchase)
 {
     uint32_t status = Core::ERROR_GENERAL;
 
@@ -722,7 +722,7 @@ uint32_t UserSettingsImplementation::SetPinOnPurchase(const bool enabled)
     return status;
 }
 
-uint32_t UserSettingsImplementation::GetPinOnPurchase(bool &enabled) const
+uint32_t UserSettingsImplementation::GetPinOnPurchase(bool &pinOnPurchase) const
 {
     uint32_t status = Core::ERROR_GENERAL;
     std::string value = "";
