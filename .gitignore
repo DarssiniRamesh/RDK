@@ -1,53 +1,63 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# Python ignorables
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
 *.so
-*.dylib
-*.dll
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Fortran module files
-*.mod
-*.smod
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+venv/
+.env
+.env.*
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Ignore all directories containing pyvenv.cfg
+**/pyvenv.cfg
+**/*/pyvenv.cfg
 
-# Executables
-*.exe
-*.out
-*.app
-
-# General/ OS-specific
-*.swp
-._*
-.DS_Store
-.Spotlight-V100
-.Trashes
-.vscode
-/.vs
-/artifacts
-*/*.so
-
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Makefile
-cmake_install.cmake
-uninstall.cmake
-install_manifest.txt
-CTestTestfile.cmake
-output/
+# Node.js ignorables
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+.env
+.env.test
+.cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.file_activity_report.json
+*.db
+core.*
+.core
+*.log
+post_process_status.lock
