@@ -5,6 +5,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+<<<<<<< Updated upstream
 .Python
 build/
 develop-eggs/
@@ -61,3 +62,45 @@ core.*
 .core
 *.log
 post_process_status.lock
+=======
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# General/ OS-specific
+*.swp
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+.vscode
+/.vs
+/artifacts
+*/*.so
+
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+uninstall.cmake
+install_manifest.txt
+CTestTestfile.cmake
+output/
+
+logs/
+>>>>>>> Stashed changes
