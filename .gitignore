@@ -103,4 +103,7 @@ CTestTestfile.cmake
 output/
 
 logs/
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
